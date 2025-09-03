@@ -1,31 +1,34 @@
 import { motion } from "framer-motion";
-
+import stream from '../assets/stram.jpg'
+import foodapp from '../assets/Food_del.jpg'
+import health from '../assets/HealthCare_websites.jpg'
+import portfolio from '../assets/myportfolio.jpg'
 export default function Projects() {
   const projects = [
     {
       title: "Streaming Platform Clone",
       description: "A Netflix-like streaming platform clone built with React, Node.js, and TMDB API. Includes user authentication and responsive design.",
-      image: "YOUR_IMAGE_LINK_1", // replace with project screenshot
-      link: "https://your-streaming-clone-link.com", // replace with project demo link
+      image: stream, // replace with project screenshot
+      link: "https://ott-platform-nextjs-4mlqe0cry.vercel.app/", // replace with project demo link
     },
-    {
-      title: "E-Commerce Web App",
-      description: "A full-stack e-commerce platform with product catalog, cart, and payment gateway integration.",
-      image: "YOUR_IMAGE_LINK_2",
-      link: "https://your-ecommerce-link.com",
-    },
-    {
+   {
       title: "Portfolio Website",
       description: "My personal portfolio showcasing projects, skills, and achievements, built with React and Tailwind CSS.",
-      image: "YOUR_IMAGE_LINK_3",
-      link: "https://your-portfolio-link.com",
+      image: portfolio,
+      link: "https://amitportfolio-nine.vercel.app/",
+    },
+     {
+      title: "Food delivery Web App",
+      description: "A full-stack food delivery platform with product catalog, cart, and payment gateway integration.",
+      image: foodapp,
+      link: "https://github.com/golu380/Food_delivery_app",
     },
     {
-      title: "Chat Application",
-      description: "A real-time chat application built with Socket.IO, Node.js, and MongoDB for messaging.",
-      image: "YOUR_IMAGE_LINK_4",
-      link: "https://your-chat-app-link.com",
-    },
+      title: "Health Care Website",
+      description: "A real life project for booking medical equipment including blood, bed, buy medicines and cusulting doctor and online cousultation.",
+      image: health,
+      link: "https://github.com/golu380/Health_Stack_website",
+    }
   ];
 
   return (
